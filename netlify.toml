@@ -1,0 +1,9 @@
+[build]
+  # لا توجد خطوة بناء مطلوبة للملفات الثابتة
+  publish = "."
+
+# إعادة توجيه للـ SPA (إن لزم)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
